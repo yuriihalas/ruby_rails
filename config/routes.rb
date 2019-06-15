@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'welcome#index'
+  root 'controller#action'
   resources :carts
   resources :products
   resources :users
